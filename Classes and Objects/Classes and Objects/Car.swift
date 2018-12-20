@@ -20,7 +20,11 @@ class Car {
     var numberOfSeats : Int = 5
     var typeOfCar : CarType = .Coupe
     
-    init(customerChosenColour : String) {
+    init() {
+    }
+    
+    convenience init(customerChosenColour : String) {
+        self.init()
         colour = customerChosenColour
     }
 }
