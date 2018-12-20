@@ -16,6 +16,7 @@ enum CarType {
 
 class Car {
     
+    // PROPERTIES
     var colour = "Black"
     var numberOfSeats : Int = 5
     var typeOfCar : CarType = .Coupe
@@ -26,5 +27,10 @@ class Car {
     convenience init(customerChosenColour : String) {
         self.init()
         colour = customerChosenColour
+    }
+    
+    // ACTIONS(methods)
+    func drive() {
+        print("car is moving")
     }
 }
