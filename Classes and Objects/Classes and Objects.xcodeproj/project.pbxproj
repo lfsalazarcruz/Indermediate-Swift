@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3AC3D021CF497F00C0AFF8 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3AC3CF21CF497F00C0AFF8 /* Example.swift */; };
 		1EA3127021BC7A8200F0BB3C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3126F21BC7A8200F0BB3C /* main.swift */; };
 		1EA3127921BC7CF400F0BB3C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA3127821BC7CF400F0BB3C /* Car.swift */; };
 		1EE73A6921CC1CFF00B6C5BD /* SelfDrivingCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE73A6821CC1CFF00B6C5BD /* SelfDrivingCar.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1E3AC3CF21CF497F00C0AFF8 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 		1EA3126C21BC7A8200F0BB3C /* Classes and Objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classes and Objects"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA3126F21BC7A8200F0BB3C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1EA3127821BC7CF400F0BB3C /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				1EA3126F21BC7A8200F0BB3C /* main.swift */,
 				1EA3127821BC7CF400F0BB3C /* Car.swift */,
 				1EE73A6821CC1CFF00B6C5BD /* SelfDrivingCar.swift */,
+				1E3AC3CF21CF497F00C0AFF8 /* Example.swift */,
 			);
 			path = "Classes and Objects";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3AC3D021CF497F00C0AFF8 /* Example.swift in Sources */,
 				1EA3127921BC7CF400F0BB3C /* Car.swift in Sources */,
 				1EE73A6921CC1CFF00B6C5BD /* SelfDrivingCar.swift in Sources */,
 				1EA3127021BC7A8200F0BB3C /* main.swift in Sources */,

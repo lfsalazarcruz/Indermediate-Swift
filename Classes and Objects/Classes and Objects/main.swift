@@ -12,6 +12,9 @@ let myCar = Car()
 let customCar1 = Car(customerChosenColour: "Red")
 let tesla1 = SelfDrivingCar()
 
+let eg = Example(a: 1)
+print(eg.a)
+
 tesla1.destination = "Tijuana"
 
 print("My car: ", myCar.colour, myCar.numberOfSeats, myCar.typeOfCar)
